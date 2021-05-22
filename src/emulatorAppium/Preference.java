@@ -6,12 +6,12 @@ import java.util.concurrent.TimeUnit;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-public class EmulatorDevice extends Emul_base {
+public class Preference extends Emul_base {
 
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 		// TODO Auto-generated method stub
 		
-		AndroidDriver<AndroidElement> driver = capabilities();
+		AndroidDriver<AndroidElement> driver = capabilities("emulator");
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
@@ -23,9 +23,9 @@ public class EmulatorDevice extends Emul_base {
 		
 		driver.findElementByXPath("//android.widget.TextView[@text='WiFi settings']").click();
 		
-		driver.findElementByXPath("//android.widget.EditText").sendKeys("Test");
+		driver.findElementByClassName("android.widget.EditText").sendKeys("Test");
 		
-		driver.findElementByXPath("//android.widget.Button[@text='OK']").click();
+		driver.findElementsByClassName("android.widget.Button").get(1).click();
 		
 	}
 
