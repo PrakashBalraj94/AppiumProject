@@ -25,5 +25,6 @@
 	<classpathentry kind="lib" path="C:/Users/Prakash/Desktop/Selenium/Jars/selenium-java-3.7.1/libs/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Prakash/Downloads/java-client-7.5.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Prakash/Desktop/Jars/Selenium_jars/jar_files/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Prakash/Downloads/mysql-connector-java-8.0.25.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
