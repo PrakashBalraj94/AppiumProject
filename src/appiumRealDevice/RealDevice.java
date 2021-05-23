@@ -99,6 +99,13 @@ public class RealDevice extends Real_base {
 		driver.findElementById("in.amazon.mShop.android.shopping:id/chrome_action_bar_cart_image").click();
 		
 		
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		
 	}
 
 }
